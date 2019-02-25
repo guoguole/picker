@@ -1,0 +1,50 @@
+#app{
+  /*
+  自定义 mt-datetime-picker
+  **/
+  .picker-toolbar{
+    background-color:  #f7f7f7;
+    height: 44px;
+    .mint-datetime-action{
+      color: #0786F0;
+      font-size: 16px;
+      line-height: 44px;
+      cursor: pointer;
+      padding: 0 15px;
+      width: 30%;
+    }
+  }
+  .mint-datetime .picker-item{
+    font-size: 16px;
+  }
+
+  /*
+  自定义 mt-picker
+  **/
+  .picker-center-highlight:before, .picker-center-highlight:after{
+    background-color: transparent;
+  }
+  .picker-center-highlight{
+    z-index: -1;
+    background-color: #f5f5f5;
+    //margin-top: -72px!important;
+  }
+  .mint-popup-bottom{
+    .pop-button{
+      padding: 0 45px;
+    }
+    .picker-items{
+      text-align: inherit;
+      .picker-item{
+        font-size: 16px;
+      }
+    }
+  }
+  .picker-slot.picker-slot-right,.picker-slot.picker-slot-left{
+    text-align: inherit;
+  }
+  .picker-slot-wrapper{
+    //height: 430px!important;
+  }
+
+}
